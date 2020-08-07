@@ -18,7 +18,7 @@
 
 .titles {
   text-align: center;
-  margin: 10px 15px 15px 15px;
+  margin: 10px 15px 20px 15px;
 }
 
 .titles h3 {
@@ -26,7 +26,7 @@
 }
 
 .btn {
-  margin-top: 10px;
+  margin-top: 15px;
   border-radius: 6px;
   border: none;
   color: rgb(241, 235, 235);

@@ -1,7 +1,7 @@
 import React from "react";
 
 class New extends React.Component {
-  //initialize arrayitems and regex for evert inputs
+  //initialize arrayitems and regex for every inputs
   state = {
     arrayitems: [],
     type: "string",

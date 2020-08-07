@@ -3,7 +3,6 @@ import "./App.css";
 import Data from "./data.json";
 import InputList from "./Components/InputList";
 import axios from "axios";
-
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 //another method
@@ -64,6 +63,7 @@ class App extends React.Component {
     }));
   };
 
+  //to move between methods
   handleLink = () => {
     this.setState({
       current: !this.state.current,
@@ -95,7 +95,7 @@ class App extends React.Component {
       };
 
       try {
-        const res = await axios.post("/", this.state.main, config);
+        const res = await axios.post("/data", this.state.main, config);
         console.log("status: ", res.status);
         console.log("data: ", res.data);
 

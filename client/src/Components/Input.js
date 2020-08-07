@@ -43,7 +43,7 @@ class Input extends React.Component {
 
     //checking email
     else if (
-      regex.email.test(this.props.value.toString().includes("@")) ||
+      regex.email.test(this.props.value.toString()) ||
       name.toString().toLowerCase().includes("email")
     ) {
       formData = (
